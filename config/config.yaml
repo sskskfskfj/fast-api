@@ -3,7 +3,7 @@ litellm_settings:
 
 general_settings:
   master_key: sk-1234
-  database_url: postgresql://user:Test1234!@localhost:5432/litellm_db
+  database_url: os.environ/DATABASE_URL
 
 server_settings:
   host: "127.0.0.1"

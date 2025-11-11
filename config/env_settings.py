@@ -9,6 +9,7 @@ class Settings(BaseSettings):
     UI_USERNAME: str
     UI_PASSWORD: str
     SAMPLE_API_KEY: str
+    BASE_URL: str
 
     class Config:
         env_file = ".env"
